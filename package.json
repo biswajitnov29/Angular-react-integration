@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "npm install",
+    "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js",
     "startWebpack": "webpack-dev-server --port=4400",
     "build": "webpack",
     "testKarma": "karma start ./karma.conf.js",
